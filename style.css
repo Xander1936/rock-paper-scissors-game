@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+
+}
+
+body {
+    background-color: pink;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 40px;
+    margin-top: 2em;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row {
+    background-color: beige;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 2px #888888;
+
+}
+.game-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#title {
+    align-items: center;
+    justify-content: center;
+}
+.game-box {
+    font-size: medium;
+}
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+
+}
+
+.action-place {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: magenta;
+    color: black;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 37px;
+    font-size: 20px;
+    font-weight: 500px;
+    border-radius: 5px;
+    border: 10px;
+    cursor: pointer;
+}
+
+#computer-choice {
+    text-transform: capitalize;
+}
+
+#user-choice {
+    text-transform: capitalize;
+}
